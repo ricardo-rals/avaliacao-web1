@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jogo>
+    <configuracoes>
+        <titulo>A Masmorra de XML</titulo>
+        <tamanho>10</tamanho> <!-- Grid 10x10 -->
+    </configuracoes>
+    
+    <!-- Mapa estático: 0=Chão, 1=Parede, 2=Tesouro -->
+    <mapa>
+        <linha>1,1,1,1,1,1,1,1,1,1</linha>
+        <linha>1,0,0,0,0,0,1,0,2,1</linha>
+        <linha>1,0,1,1,1,0,1,0,0,1</linha>
+        <linha>1,0,0,0,1,0,0,0,0,1</linha>
+        <linha>1,1,1,0,1,1,1,1,0,1</linha>
+        <linha>1,0,0,0,0,0,0,0,0,1</linha>
+        <linha>1,0,1,1,0,1,1,1,0,1</linha>
+        <linha>1,0,0,0,0,0,0,0,0,1</linha>
+        <linha>1,1,1,1,1,1,1,1,1,1</linha>
+    </mapa>
+
+    <!-- Entidades Dinâmicas (O Engine altera estes dados) -->
+    <entidades>
+        <jogador id="p1" x="1" y="1" hp="100" />
+        <inimigo id="e1" x="5" y="5" tipo="slime" />
+    </entidades>
+</jogo>
